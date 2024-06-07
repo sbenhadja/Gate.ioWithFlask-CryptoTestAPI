@@ -9,17 +9,19 @@ Retrieve all trades within a defined period.
 Securely handle API keys and secrets.
 
 # Requirements
-Python 3.11.8
-Flask
-Requests library (for making HTTP requests to the Gate.io API)
+    Python 3.11.8
+    Flask
+    Requests library (for making HTTP requests to the Gate.io API)
 
 # Setup
 *Clone the Repository:*
+
     git clone <repository_url>
     cd <repository_directory>
 
 *Install Dependencies:*
 Make sure you have Python 3.11.8 installed. Then, install the necessary Python packages:
+
     pip install Flask requests
     Create dont_share.py:
 
@@ -30,7 +32,8 @@ Create a file named dont_share.py in the project directory. This file will conta
 
 # Run the Flask Application:
 *Start the Flask application by running:*
-python app.py
+
+    python app.py
 
 # Usage
 The Flask application will be available at http://127.0.0.1:5000.
